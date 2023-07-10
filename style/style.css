@@ -295,3 +295,36 @@
     font-size: 24px;
     font-weight: 700;
 }
+/* comment part */
+.comment_section{
+    background-image: url('../Flower Asset/comment1.png');
+    background-repeat: no-repeat;
+    height: 450px;
+    margin: 150px;
+    align-items: center;
+    margin-left: 300px;
+}
+.comment_info{
+    text-align: center;
+}
+.comment_info form{
+   position: absolute;
+   left: 33%;
+  padding-top: 50px;
+}
+
+  
+  .name{
+    border: 0px;
+    height: 40px;
+    width: 100%;
+   
+  }
+  .font{
+    font-size: 30px;
+  }
+  .option{
+    padding: 10px;
+
+  }
+
