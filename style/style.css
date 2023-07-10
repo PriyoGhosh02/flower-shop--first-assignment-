@@ -1,0 +1,64 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+.header {
+    width: 1920px;
+    height: 850px;
+    background-color: #b937531a;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 850px;
+    width: 1500px;
+    padding: 30px 30px 0px 150px;
+}
+
+.header_title {
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.header_describtion {
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    color: rgb(124, 135, 146);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.header_pic {
+    width: 635px;
+    height: 800px;
+}
+
+/* body Hot deal! */
+.hot_deal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1922px;
+    height: 620px;
+    background-color:#b360721a ;
+}
