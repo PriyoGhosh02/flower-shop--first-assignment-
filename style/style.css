@@ -110,22 +110,65 @@
     font-weight: 800;
 }
 
-.instagram_info{
+.instagram_info {
     display: flex;
     justify-content: center;
 }
+
 .instagram_info div {
     width: 590px;
 }
 
 .instagram_describtion {
-    color:silver;
+    color: silver;
     text-align: center;
     font-size: 18px;
 }
-.instagram_all_pic{
+
+.instagram_all_pic {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+/* last part of Get The Latest Deals */
+
+.last_deals_section {
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    height: 450px;
+    margin: 150px;
+    align-items: center;
+}
+.last_deals_section > div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.last_deals_info{
+    text-align: center;
+    width: 600px;
+}
+.subscribe-field{
+    display: flex;
+    justify-content: center;
+}
+.last_deals_title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+}
+.last_deals_describtion{
+    color: silver;
+text-align: center;
+font-size: 18px;
+}
+#mail{
+    width: 700px;
+height: 64px;
+border: 0px;
 }
