@@ -5,7 +5,7 @@
 .header {
     width: 1920px;
     height: 850px;
-    background-color: #b937531a;
+    background-color: #d6103b1a;
 }
 
 .head {
@@ -18,21 +18,15 @@
 }
 
 .header_title {
-    display: flex;
     width: 708px;
-    flex-direction: column;
     color: #272727;
-    font-family: Lato;
     font-size: 80px;
-    font-style: normal;
     font-weight: 800;
 }
 
 .header_describtion {
-    display: flex;
     width: 634px;
-    flex-direction: column;
-    color: rgb(124, 135, 146);
+    color: silver;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -57,8 +51,48 @@
 .hot_deal {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 1922px;
-    height: 620px;
-    background-color:#b360721a ;
+    justify-content: space-evenly;
+
+}
+
+.deal_section {
+    margin-top: 25px;
+    height: 600px;
+    width: 1750px;
+    background-color: #d821491a;
+    padding: 30px 30px 0px 150px;
+}
+
+.deal_title {
+    color: #272727;
+    font-size: 37px;
+    align-items: center;
+    padding-left: 40px;
+    width: 550px;
+}
+.deal_info{
+    padding-left: 100px;
+}
+
+.deal_describtion {
+    color: silver;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    height: 590px;
+    height: 60px;
+}
+
+.deal_pic {
+    width: 318px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 450px 100px ;
+}
+.btn_sign{
+    position: absolute;
+    left: 20%;
+
 }
