@@ -217,3 +217,31 @@
     text-align: center;
     font-size: 16px;
 }
+
+/*  Our Featured Flowers part  */
+.Featured_Flowers {
+    margin-top: 40px;
+}
+
+.Featured_Flowers_info {
+    display: flex;
+    justify-content: center;
+}
+
+.Featured_Flowers_title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+}
+
+.Featured_Flowers_info div {
+    width: 550px;
+
+}
+
+.Featured_Flowers_describtion {
+
+    color: silver;
+    text-align: center;
+    font-size: 18px;
+}
