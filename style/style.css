@@ -70,7 +70,8 @@
     padding-left: 40px;
     width: 550px;
 }
-.deal_info{
+
+.deal_info {
     padding-left: 100px;
 }
 
@@ -89,10 +90,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 450px 100px ;
+    padding: 100px 450px 100px;
 }
-.btn_sign{
+
+.btn_sign {
     position: absolute;
     left: 20%;
+}
 
+/* Instagram section first part */
+.instagram_section {
+    padding-top: 40px;
+}
+
+.instagram_title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram_info{
+    display: flex;
+    justify-content: center;
+}
+.instagram_info div {
+    width: 590px;
+}
+
+.instagram_describtion {
+    color:silver;
+    text-align: center;
+    font-size: 18px;
+}
+.instagram_all_pic{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
