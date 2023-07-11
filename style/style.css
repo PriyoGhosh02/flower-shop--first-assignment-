@@ -42,6 +42,11 @@
     font-weight: 700;
     color: #FFFFFF;
 }
+.btn:hover{
+    background-color: green;
+    color: red;
+    cursor: pointer;
+}
 
 .header_pic {
     width: 635px;
@@ -222,6 +227,13 @@
     text-align: center;
     font-size: 16px;
     padding-top: 30px;
+}
+.hidden_message{
+    display: none;
+}
+.copyrite:hover .hidden_message{
+    color: red;
+    display: block;
 }
 
 /*  Our Featured Flowers part  */
