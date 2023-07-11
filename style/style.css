@@ -154,7 +154,9 @@
     text-align: center;
     width: 600px;
 }
-
+.subs{
+    margin-left: 10px;
+}
 .subscribe-field {
     display: flex;
     justify-content: center;
@@ -213,9 +215,10 @@
 }
 
 .copyrite {
-    color: silver;
+    color: rgb(139, 121, 121);
     text-align: center;
     font-size: 16px;
+    padding-top: 30px;
 }
 
 /*  Our Featured Flowers part  */
@@ -310,7 +313,7 @@
 .comment_info form{
    position: absolute;
    left: 33%;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
   
@@ -323,8 +326,6 @@
   .font{
     font-size: 30px;
   }
-  .option{
-    padding: 10px;
-
+  .des{
+    margin-top: 10px;
   }
-
