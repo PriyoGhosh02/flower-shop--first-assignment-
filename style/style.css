@@ -6,6 +6,7 @@
     width: 1920px;
     height: 850px;
     background-color: #d6103b1a;
+
 }
 
 .head {
@@ -154,9 +155,11 @@
     text-align: center;
     width: 600px;
 }
-.subs{
+
+.subs {
     margin-left: 10px;
 }
+
 .subscribe-field {
     display: flex;
     justify-content: center;
@@ -298,8 +301,9 @@
     font-size: 24px;
     font-weight: 700;
 }
+
 /* comment part */
-.comment_section{
+.comment_section {
     background-image: url('../Flower Asset/comment1.png');
     background-repeat: no-repeat;
     height: 450px;
@@ -307,25 +311,29 @@
     align-items: center;
     margin-left: 300px;
 }
-.comment_info{
+
+.comment_info {
     text-align: center;
 }
-.comment_info form{
-   position: absolute;
-   left: 33%;
-  padding-top: 30px;
+
+.comment_info form {
+    position: absolute;
+    left: 33%;
+    padding-top: 30px;
 }
 
-  
-  .name{
+
+.name {
     border: 0px;
     height: 40px;
     width: 100%;
-   
-  }
-  .font{
+
+}
+
+.font {
     font-size: 30px;
-  }
-  .des{
+}
+
+.des {
     margin-top: 10px;
-  }
+}
